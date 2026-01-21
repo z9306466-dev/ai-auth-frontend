@@ -11,7 +11,10 @@
     <!-- Audio -->
     <h3>Analyze Audio</h3>
     <div class="row">
-      <input type="file" id="audioFile" accept="audio/*">
+      <label class="file-btn">
+        اختر ملف
+        <input type="file" id="audioFile" accept="audio/*" hidden>
+      </label>
       <button onclick="sendAudio()">Analyze Audio</button>
     </div>
 
@@ -20,7 +23,10 @@
     <!-- Video -->
     <h3>Analyze Video</h3>
     <div class="row">
-      <input type="file" id="videoFile" accept="video/*">
+      <label class="file-btn">
+        اختر ملف
+        <input type="file" id="videoFile" accept="video/*" hidden>
+      </label>
       <button onclick="sendVideo()">Analyze Video</button>
     </div>
 
