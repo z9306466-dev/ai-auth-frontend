@@ -4,10 +4,25 @@ body {
   color: white;
   text-align: center;
 }
+
 .container {
   margin-top: 100px;
 }
+
+/* السطر اللي فيه اختيار الملف + الزر */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+input[type="file"] {
+  color: white;
+}
+
 button {
   padding: 10px 20px;
-  margin-top: 10px;
+  cursor: pointer;
 }
