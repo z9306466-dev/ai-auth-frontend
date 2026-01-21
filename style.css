@@ -9,20 +9,29 @@ body {
   margin-top: 100px;
 }
 
-/* السطر اللي فيه اختيار الملف + الزر */
+/* صف اختيار الملف + زر التحليل */
 .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 500px;
-  margin: 10px auto;
+  max-width: 90%;
+  margin: 12px auto;
+  gap: 12px;
 }
 
-input[type="file"] {
-  color: white;
+/* زر اختيار الملف */
+.file-btn {
+  background: #ffffff;
+  color: #000;
+  padding: 10px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
 }
 
+/* زر Analyze */
 button {
   padding: 10px 20px;
   cursor: pointer;
+  white-space: nowrap;
 }
